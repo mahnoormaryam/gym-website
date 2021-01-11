@@ -1,0 +1,62 @@
+.btn{
+    width: 15rem;
+    padding: 10px;
+    font-family: 1.2rem;
+
+   
+
+///////////////responsive code
+    @include respond(tab-land){
+        font-size: 1.1rem;     //1 rem = 9px
+        padding: .8rem;
+        width: 14rem;
+    }
+    
+    @include respond(tab-port){
+        font-size: 1rem;     // 1rem = 8px
+        padding: .7rem;
+        width: 13rem;
+    }
+    @include respond(phone){
+        font-size: 1rem;       //1 rem = 8px
+        padding: .7rem;
+        width: 14rem;
+    }
+  
+    @include respond(big-desktop){
+        font-size: 75%;
+    }
+//////////////////
+
+    &__icon{
+        width: 15px;
+        height: 10px;
+        color: blueviolet;
+
+///////////////responsive code
+        
+    @include respond(tab-land){
+           //1 rem = 9px
+        width: 14px;
+        height: 9px;
+    }
+    
+    @include respond(tab-port){
+             // 1rem = 8px
+        width: 12px;
+        height: 7px;
+    }
+    @include respond(phone){
+             //1 rem = 8px
+        width: 6px;
+        height: 4px;
+    }
+  
+    @include respond(big-desktop){
+        font-size: 75%;
+    }
+
+    ///////////////////
+        }
+}
+

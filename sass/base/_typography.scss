@@ -1,0 +1,32 @@
+.header-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    position: absolute;
+
+    top: 20rem;
+    left: 20rem;
+
+    &__span{
+        font-family: 'Monoton', cursive;
+        color: white;
+        font-size: 4rem;
+        letter-spacing: 2px;
+    }
+    &__heading{
+        font-size: 6rem;
+        font-family:  sans-serif;
+        font-weight: bolder;
+    }
+}
+
+.heading{
+    font-size: 6rem;
+    font-family:  sans-serif;
+    font-weight: bolder;
+}
+.paragraph{
+    font-family: inherit;
+    font-size: 1.6rem;
+    color: rgb(192, 191, 189);
+}

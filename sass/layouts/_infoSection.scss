@@ -1,0 +1,147 @@
+.infoSection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10rem;
+
+}
+
+.theoryPart{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    &__heading{
+        font-size: 4rem;
+        font-family:  sans-serif;
+        font-weight: bolder;
+        padding: 2rem;
+    }
+    &__paragraph{
+        font-family: inherit;
+        color: rgb(73, 73, 73);
+        font-size: 1.6rem;
+        padding: 2rem;
+    }
+    &__btn{
+        padding: 2rem;
+    }
+}
+
+.picturePart{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 450px;
+    height: 25rem;
+    padding: 8rem;
+    background-color: rgb(252, 252, 252);
+    border-radius: 2rem;
+    box-shadow: 5px 10px 8px 10px rgba(0, 0, 0, 0.13);
+
+    &__image{
+        display: flex;
+        justify-content: center;
+        position: relative;
+       
+        &--ManImg{
+            position: absolute;
+            bottom: 6rem;
+
+            width: 4rem;
+            height: 4rem;
+            border: 2px solid wheat;
+            background-color: transparent;
+            border-radius: 100%;
+        }
+    }
+    &__heading{
+        font-size: 2.3rem;
+        color: black;
+    }
+    &__items{
+        width: 40rem;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 1rem;
+        justify-content: space-between;
+        align-items: center;
+
+        
+
+        &--item1{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 3rem;
+            &--logo{
+
+                &__fitness{
+                    width: 6rem;
+                    height: 6rem;
+                }
+            }
+            &--span{
+                font-family: inherit;
+                font-size: 1.2rem;
+            }
+
+        }
+        &--item2{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 3rem;
+            &--logo{
+                &__running{
+                    width: 6rem;
+                    height: 6rem;
+                    
+                }
+
+            }
+            &--span{
+                font-family: inherit;
+                font-size: 1.2rem;
+                
+            }
+            
+        }
+        &--item3{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 3rem;
+            &--logo{
+                &__diet{
+                    width: 6rem;
+                    height: 6rem;
+                }
+
+            }
+            &--span{
+                font-family: inherit;
+                font-size: 1.2rem;
+            }
+        }
+
+        &--item4{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 3rem;
+            &--logo{
+                &__dumbbell{
+                    width: 6rem;
+                    height: 6rem;
+                }
+            }
+            &--span{
+                font-family: inherit;
+                font-size: 1.2rem;
+            }
+
+        }
+    }
+}
