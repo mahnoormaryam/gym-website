@@ -11,6 +11,17 @@
         justify-content: space-between;
         //1 rem = 8px
     }
+    @include respond(tab-port){
+        display: flex;
+        flex-direction: column;   
+        justify-content: space-between;  // 1rem = 8px
+    }
+
+    @include respond(tab-land){
+        display: flex;
+        flex-direction: column;   
+        justify-content: space-between;     //1 rem = 9px
+    }
 
 }
 
@@ -19,11 +30,20 @@
     flex-direction: column;
     width: 400px;
 
+    /// responsive 
     @include respond(phone){
         width: 200px;
       padding: 5rem;
       //1 rem = 8px
   }
+    @include respond(tab-port){
+      padding: 5rem;  // 1rem = 8px
+    }
+
+    @include respond(tab-land){
+       
+        padding: 5rem;    //1 rem = 9px
+    }
 
     &__heading{
         font-size: 4rem;

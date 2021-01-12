@@ -152,6 +152,16 @@ a {
       display: flex;
       flex-direction: column;
       justify-content: space-between; } }
+  @media (max-width: 56.25em) {
+    .infoSection {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between; } }
+  @media (max-width: 75em) {
+    .infoSection {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between; } }
 
 .theoryPart {
   display: flex;
@@ -160,6 +170,12 @@ a {
   @media (max-width: 37.5em) {
     .theoryPart {
       width: 200px;
+      padding: 5rem; } }
+  @media (max-width: 56.25em) {
+    .theoryPart {
+      padding: 5rem; } }
+  @media (max-width: 75em) {
+    .theoryPart {
       padding: 5rem; } }
   .theoryPart__heading {
     font-size: 4rem;
