@@ -297,6 +297,14 @@ a {
     padding: 3rem;
     display: flex;
     justify-content: space-around; }
+    @media (max-width: 37.5em) {
+      .membership__Section2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10rem; } }
     .membership__Section2--cards {
       display: flex;
       flex-direction: column;
@@ -304,10 +312,24 @@ a {
       width: 27rem;
       background-color: #fcfcfc;
       padding: .6rem; }
+      @media (max-width: 56.25em) {
+        .membership__Section2--cards {
+          width: 22rem;
+          padding: 0rem; } }
+      @media (max-width: 37.5em) {
+        .membership__Section2--cards {
+          width: 27rem;
+          padding: .6rem; } }
       .membership__Section2--cards--img {
         width: 27rem;
         height: 20rem;
         clip-path: polygon(50% 0%, 100% 0, 100% 43%, 100% 100%, 80% 84%, 0 100%, 0 73%, 0% 43%, 0 0); }
+        @media (max-width: 56.25em) {
+          .membership__Section2--cards--img {
+            width: 22rem; } }
+        @media (max-width: 37.5em) {
+          .membership__Section2--cards--img {
+            width: 27rem; } }
       .membership__Section2--cards--heading {
         font-size: 3rem;
         padding: 1rem; }
