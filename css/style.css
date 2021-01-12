@@ -150,7 +150,10 @@ a {
   @media (max-width: 37.5em) {
     .infoSection {
       display: flex;
-      flex-direction: column; } }
+      flex-direction: column;
+      padding: 10rem;
+      align-items: center;
+      justify-content: center; } }
 
 .theoryPart {
   display: flex;
@@ -161,16 +164,25 @@ a {
     font-family: sans-serif;
     font-weight: bolder;
     padding: 2rem; }
+    @media (max-width: 37.5em) {
+      .theoryPart__heading {
+        padding: 2rem; } }
   .theoryPart__paragraph {
     font-family: inherit;
     color: #494949;
     font-size: 1.6rem;
     padding: 2rem; }
+    @media (max-width: 37.5em) {
+      .theoryPart__paragraph {
+        padding: 2rem; } }
   .theoryPart__btn {
     padding: 2rem; }
+    @media (max-width: 37.5em) {
+      .theoryPart__btn {
+        padding: 2rem; } }
   @media (max-width: 37.5em) {
     .theoryPart {
-      padding: 3rem; } }
+      width: 200px; } }
 
 .picturePart {
   display: flex;
