@@ -303,8 +303,7 @@ a {
         flex-direction: column;
         justify-content: center;
         justify-content: space-between;
-        align-items: center;
-        padding: 10rem; } }
+        align-items: center; } }
     .membership__Section2--cards {
       display: flex;
       flex-direction: column;
@@ -318,8 +317,9 @@ a {
           padding: 0rem; } }
       @media (max-width: 37.5em) {
         .membership__Section2--cards {
-          width: 27rem;
-          padding: .6rem; } }
+          width: 32rem;
+          padding: .6rem;
+          margin-bottom: 2rem; } }
       .membership__Section2--cards--img {
         width: 27rem;
         height: 20rem;
@@ -329,7 +329,7 @@ a {
             width: 22rem; } }
         @media (max-width: 37.5em) {
           .membership__Section2--cards--img {
-            width: 27rem; } }
+            width: 32rem; } }
       .membership__Section2--cards--heading {
         font-size: 3rem;
         padding: 1rem; }
