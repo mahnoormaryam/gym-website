@@ -314,7 +314,7 @@ a {
       @media (max-width: 56.25em) {
         .membership__Section2--cards {
           width: 22rem;
-          padding: 0rem; } }
+          padding: .4rem; } }
       @media (max-width: 37.5em) {
         .membership__Section2--cards {
           width: 32rem;
@@ -344,12 +344,18 @@ a {
   display: flex;
   justify-content: center;
   padding: 10rem; }
+  @media (max-width: 37.5em) {
+    .photoSection {
+      padding: 10rem; } }
   .photoSection-Section1__image {
     padding: 1rem; }
     .photoSection-Section1__image--img {
       width: 40rem;
       height: 60rem;
       border-radius: .4rem; }
+      @media (max-width: 37.5em) {
+        .photoSection-Section1__image--img {
+          width: 30rem; } }
   .photoSection-Section1__infoBox {
     width: 20rem; }
     .photoSection-Section1__infoBox--heading1 {
@@ -371,6 +377,9 @@ a {
       width: 40rem;
       height: 60rem;
       border-radius: .4rem; }
+      @media (max-width: 37.5em) {
+        .photoSection-Section2__image--img {
+          width: 30rem; } }
   .photoSection-Section2__infoBox {
     width: 20rem; }
     .photoSection-Section2__infoBox--heading1 {

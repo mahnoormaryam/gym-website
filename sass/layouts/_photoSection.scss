@@ -4,6 +4,10 @@ display: flex;
 justify-content: center;
 padding: 10rem;
 
+@include respond(phone){
+    padding: 10rem;       //1 rem = 8px
+}
+
 &-Section1{
     
     
@@ -13,6 +17,10 @@ padding: 10rem;
             width: 40rem;
             height: 60rem;
             border-radius: .4rem;
+
+            @include respond(phone){
+                width: 30rem;       //1 rem = 8px
+            }
         }
     }
     &__infoBox{
@@ -50,6 +58,10 @@ padding: 10rem;
                 width: 40rem;
                 height: 60rem;
                 border-radius: .4rem;
+
+                @include respond(phone){
+                    width: 30rem;       //1 rem = 8px
+                }
             }
         }
     
