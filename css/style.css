@@ -355,7 +355,8 @@ a {
       border-radius: .4rem; }
       @media (max-width: 37.5em) {
         .photoSection-Section1__image--img {
-          width: 30rem; } }
+          width: 30rem;
+          height: 55rem; } }
   .photoSection-Section1__infoBox {
     width: 20rem; }
     .photoSection-Section1__infoBox--heading1 {
@@ -379,7 +380,8 @@ a {
       border-radius: .4rem; }
       @media (max-width: 37.5em) {
         .photoSection-Section2__image--img {
-          width: 30rem; } }
+          width: 30rem;
+          height: 55rem; } }
   .photoSection-Section2__infoBox {
     width: 20rem; }
     .photoSection-Section2__infoBox--heading1 {
