@@ -147,6 +147,10 @@ a {
   align-items: center;
   justify-content: space-between;
   padding: 10rem; }
+  @media (max-width: 37.5em) {
+    .infoSection {
+      display: flex;
+      flex-direction: column; } }
 
 .theoryPart {
   display: flex;
@@ -164,6 +168,9 @@ a {
     padding: 2rem; }
   .theoryPart__btn {
     padding: 2rem; }
+  @media (max-width: 37.5em) {
+    .theoryPart {
+      padding: 3rem; } }
 
 .picturePart {
   display: flex;
