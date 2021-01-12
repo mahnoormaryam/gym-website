@@ -151,14 +151,16 @@ a {
     .infoSection {
       display: flex;
       flex-direction: column;
-      padding: 10rem;
-      align-items: center;
-      justify-content: center; } }
+      justify-content: space-between; } }
 
 .theoryPart {
   display: flex;
   flex-direction: column;
   width: 400px; }
+  @media (max-width: 37.5em) {
+    .theoryPart {
+      width: 200px;
+      padding: 5rem; } }
   .theoryPart__heading {
     font-size: 4rem;
     font-family: sans-serif;
@@ -180,9 +182,6 @@ a {
     @media (max-width: 37.5em) {
       .theoryPart__btn {
         padding: 2rem; } }
-  @media (max-width: 37.5em) {
-    .theoryPart {
-      width: 200px; } }
 
 .picturePart {
   display: flex;
@@ -194,6 +193,9 @@ a {
   background-color: #fcfcfc;
   border-radius: 2rem;
   box-shadow: 5px 10px 8px 10px rgba(0, 0, 0, 0.13); }
+  @media (max-width: 37.5em) {
+    .picturePart {
+      width: 200px; } }
   .picturePart__image {
     display: flex;
     justify-content: center;
